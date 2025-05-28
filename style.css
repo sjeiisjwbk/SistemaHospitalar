@@ -1,0 +1,133 @@
+/* Fonte limpa e fundo claro */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5fcff; /* Azul bem claro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho azul hospitalar */
+header {
+  background-color: #3f8bcc; /* Azul hospitalar */
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container branco com sombra leve */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos das seções */
+h2 {
+  color: #2a4d69;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilização dos formulários */
+form {
+  display: grid;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #444;
+}
+
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #cfdfe8;
+  border-radius: 6px;
+  background-color: #f9fcff;
+  font-size: 14px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border-color: #3f8bcc;
+  outline: none;
+}
+
+/* Grupo de radio buttons */
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+/* Botão padrão */
+button {
+  padding: 10px 20px;
+  background-color: #3f8bcc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2a6aa0;
+}
+
+/* Lista de pacientes */
+.patient-card {
+  background-color: #eef7fd;
+  border: 1px solid #d4e6f1;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #0001;
+}
+
+/* Botões nos cards */
+.patient-card button {
+  margin-right: 8px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #3f8bcc;
+  font-size: 14px;
+}
+
+.patient-card button:hover {
+  background-color: #2a6aa0;
+}
+
+/* Campo de busca */
+#search {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #cfdfe8;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #f9fcff;
+  font-size: 14px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* formato circular */
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
